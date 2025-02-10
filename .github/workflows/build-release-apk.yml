@@ -18,7 +18,7 @@ jobs:
           cache: 'gradle'
 
       - name: "Build release APK"
-        run: ./gradlew assembleRelease --stacktrace
+        run: ./gradlew assembledebug --stacktrace
 
       - name: "Rename APK"
         run: |
